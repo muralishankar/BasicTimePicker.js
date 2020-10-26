@@ -1,0 +1,48 @@
+.o-time-picker {
+  display: flex;
+}
+.o-time-picker .o-hour-input,
+.o-time-picker .o-min-input {
+  width: 23px;
+  height: 23px;
+  text-indent: 4px;
+}
+
+.o-time-picker .o-hour-input::-webkit-outer-spin-button,
+.o-time-picker .o-hour-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.o-time-picker .o-min-input::-webkit-outer-spin-button,
+.o-time-picker .o-min-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.o-time-picker .o-time-hour {
+}
+
+.o-time-picker .o-time-minute {
+}
+.o-time-picker .o-time-meridiem {
+  padding-left: 10px;
+}
+.o-time-picker .o-time-meridiem .o-meridiem-container {
+  margin: 32px 0;
+}
+.o-time-picker .o-min-dec,
+.o-time-picker .o-hour-dec,
+.o-time-picker .o-min-inc,
+.o-time-picker .o-hour-inc {
+  font-size: 15px;
+}
+
+.o-time-picker .o-time-meridiem .o-selected {
+  font-weight: 600;
+}
